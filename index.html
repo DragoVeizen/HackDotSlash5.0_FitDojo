@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/chat.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>FitDojo-Your personal online trainer</title>
+<!--
+
+
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">Fit<em>Dojo</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#features">Facilites Available</a></li>
+                            <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
+                            <li class="scroll-to-section"><a href="videocall.html">Consult Us</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Your stats</a></li> 
+                            <li class="scroll-to-section"><a href="#contact-us">Competitions</a></li> 
+                            <li class="main-button"><a href="#">Sign Up</a></li>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <video autoplay muted loop id="bg-video">
+            <source src="assets/images/gym-video.mp4" type="video/mp4" />
+        </video>
+
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h6>work harder, get stronger</h6>
+                <h2>Made easy with <em>FitDojo</em></h2>
+                <div class="main-button scroll-to-section">
+                    <a href="#features">Become a member</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+    <!--Chatbot Code-->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color:#fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!--message container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!--messages -->
+                       
+                        <div id="chatbox">
+                            
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botstartmessage" class="bottext"><span>Loading....</span></p>
+                        </div>
+                        <!--user input box-->
+                        <div class="chat-bar-input-block">
+                            <div id="userinput">
+                                <input id="textinput" class="input-box" type="text" name="msg" placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color:crimson;" class="fa fa-fw fa-heart"   onclick="heartbutton()"></i>
+                                <i id="chat-icon" style="color:grey;" class="fa fa-fw fa-send" onclick="sendbutton()"></i>
+                                
+                            </div>
+                        </div>
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Chatbot End-->
+    <!-- ***** Features Item Start ***** -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Facilites <em>Available</em></h2>
+                        <img src="assets/images/line-dec.png" alt="waves">
+                        <p>FitDojo is a free platform where we tend to all your fitness,diet and health needs. We provide online sessions,real-time feedback and much more.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="First One">
+                            </div>
+                            <div class="right-content">
+                                <h4>Diet plans</h4>
+                                <p>We will help you make a custom diet plan according to a series of questions set by our expert workout partners.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="second one">
+                            </div>
+                            <div class="right-content">
+                                <h4>Online Fitness Sessions</h4>
+                                <p>We,along with our team of experienced trainers,will provide you with daily online fitness sessions </p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="third gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Track your status</h4>
+                                <p>We will show your status by displaying<a rel="nofollow" href="https://www.pexels.com" target="_blank"> Fitbit/Boat</a> fitness bands data in a comprehensive way.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="training fifth">
+                            </div>
+                            <div class="right-content">
+                                <h4>Personal Workout Plans</h4>
+                                <p>We also provide personalised workout plans for people on the basis of a series of questions drafted by our team.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Recorded Videos and Talks</h4>
+                                <p>We provide you with a library video sessions made by our trainers along with other informative content.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                          <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="fourth muscle">
+                            </div>
+                            <div class="right-content">
+                                <h4>Contact Us</h4>
+                                <p>You can contact a number of <a rel="nofollow" href="https://templatemo.com/tag/digital-marketing" target="_parent">experienced trainers</a> or <a href="https://templatemo.com/tag/corporate">medical consultants</a> available on our platform</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Item End ***** -->
+
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section" id="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
+                        <p>The sooner you start the better ..dont you think?</p>
+                        <div class="main-button scroll-to-section">
+                            <a href="#our-classes">Become a member</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
+
+    <!-- ***** Our Classes Start ***** -->
+    <section class="section" id="our-classes">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Our <em>Diet Plans</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Here we offer 4 different and effective types of diets for people who wish to follow them.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="tabs">
+              <div class="col-lg-4">
+                <ul>
+                  <li><a href='#tabs-1'><img src="assets/images/tabs-first-icon.png" alt="">Mediterranean diet</a></li>
+                  <li><a href='#tabs-2'><img src="assets/images/tabs-first-icon.png" alt="">Paleo diet</a></li>
+                  <li><a href='#tabs-3'><img src="assets/images/tabs-first-icon.png" alt="">Vegan diet</a></li>
+                  <li><a href='#tabs-4'><img src="assets/images/tabs-first-icon.png" alt="">Gluten-free diet</a></li>
+                  <div class="main-rounded-button"><a href="#">View All Diets</a></div>
+                </ul>
+              </div>
+              <div class="col-lg-8">
+                <section class='tabs-content'>
+                  <article id='tabs-1'>
+                    <img src="assets/images/training-image-01.jpg" alt="First Class">
+                    <h4>Mediterranean diet</h4>
+                    <p>The Mediterranean diet is an excellent diet that has been thoroughly studied. It’s particularly effective for heart disease prevention.
+
+                        It emphasizes foods that were commonly eaten around the Mediterranean region during the 20th century and earlier.
+                        
+                        As such, it includes plenty of vegetables, fruits, fish, poultry, whole grains, legumes, dairy products, and extra virgin olive oil.</p>
+                    <div class="main-button">
+                        <a href="#">View Complete Diet Plan </a>
+                    </div>
+                  </article>
+                  <article id='tabs-2'>
+                    <img src="assets/images/training-image-02.jpg" alt="Second Training">
+                    <h4>Paleo diet</h4>
+                    <p>The paleo diet is a very popular diet that is effective for weight loss and general health improvement. It’s currently the world’s most popular diet.
+
+                        It centers on unprocessed foods believed to resemble those available to some of humanity’s paleolithic ancestors.</p>
+                    <div class="main-button">
+                        <a href="#">View Complete Diet Plan </a>
+                    </div>
+                  </article>
+                  <article id='tabs-3'>
+                    <img src="assets/images/training-image-03.jpg" alt="Third Class">
+                    <h4>Vegan diet</h4>
+                    <p>The vegan diet has become increasingly popular in the past decade. It’s linked to a number of health benefits, including weight loss, improved heart health, and better blood sugar control.
+
+                        The diet is based exclusively on plant foods and eliminates all animal products.</p>
+                    <div class="main-button">
+                        <a href="#">View Complete Diet Plan </a>
+                    </div>
+                  </article>
+                  <article id='tabs-4'>
+                    <img src="assets/images/training-image-04.jpg" alt="Fourth Training">
+                    <h4>Gluten-free diet</h4>
+                    <p>The gluten-free diet is essential for people who are intolerant to gluten, a protein that is found in wheat, rye, and barley.
+
+                        For optimal health, you should focus on whole foods that are naturally gluten-free. Gluten-free junk food is still junk food.</p>
+                    <div class="main-button">
+                        <a href="#">View Complete Diet Plan </a>
+                    </div>
+                  </article>
+                </section>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our Classes End ***** -->
+    <!--Video Call Platform-->
+    <section class="section" id="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
+                        <p>The sooner you start the better ..dont you think?</p>
+                        <div class="main-button scroll-to-section">
+                            <a href="videocall.html">Become a member</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Video end-->
+ 
+
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="trainers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Expert <em>Trainers</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/first-trainer.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Strength Trainer</span>
+                            <h4>Bret D. Bowers</h4>
+                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/second-trainer.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Muscle Trainer</span>
+                            <h4>Hector T. Daigl</h4>
+                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/third-trainer.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Power Trainer</span>
+                            <h4>Paul D. Newman</h4>
+                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div id="map">
+                      <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="post">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                              <fieldset>
+                                <input name="subject" type="text" id="subject" placeholder="Subject">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button">Send Message</button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; FitDojo
+                    
+                    - Designed by <span style="color:aqua;">DAV-3</span></p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/response.js"></script>
+<script src="assets/js/chat.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+
+  </body>
+</html>
