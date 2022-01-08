@@ -26,12 +26,12 @@ function getbotresponse(input)
     {
         return "bye";
     }
-    else if(input=="hy")
+    else if(input=="hi")
     {
         return "Hello there,what can we help you with?";
     }
     
-    else if(input == "I wanted to start my fiitness journey with you guys!")
+    else if(input == "I wanted to start my fitness journey with you guys!")
     {
         return "We are elated that you chose us for your fitness journey!<br>";
     }

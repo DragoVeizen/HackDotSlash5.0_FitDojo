@@ -75,11 +75,7 @@ p {
   color: #7a7a7a;
 }
 
-/* 
----------------------------------------------
-global styles
---------------------------------------------- 
-*/
+
 html,
 body {
   background: #fff;
@@ -705,13 +701,7 @@ subscribe
 
 
 
-/*
---------------------------------------------
-Our Classes
---------------------------------------------
-*/
-
-#our-classes {
+#diet {
   margin-bottom: 140px;
 }
 
@@ -799,11 +789,6 @@ Our Classes
 }
 
 
-/* 
----------------------------------------------
-schedule
---------------------------------------------- 
-*/
 
 #schedule {
   padding: 0px 0px 140px 0px;
@@ -961,11 +946,6 @@ trainers
 }
 
 
-/* 
----------------------------------------------
-contact
---------------------------------------------- 
-*/
 
 #contact-us {
   margin-top: 140px;
@@ -1011,11 +991,11 @@ contact
   resize: none;
 }
 
-.contact-form ::-webkit-input-placeholder { /* Edge */
+.contact-form ::-webkit-input-placeholder { 
   color: #7a7a7a;
 }
 
-.contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+.contact-form :-ms-input-placeholder { 
   color: #7a7a7a;
 }
 
@@ -1045,11 +1025,7 @@ contact
 
 
 
-/* 
----------------------------------------------
-footer
---------------------------------------------- 
-*/
+
 footer {
   text-align: center;
   padding: 30px 0px;
@@ -1070,12 +1046,6 @@ footer p a:hover {
 }
 
 
-
-/* 
----------------------------------------------
-preloader
---------------------------------------------- 
-*/
 
 .js-preloader {
     position: fixed;
@@ -1172,12 +1142,6 @@ preloader
 }
 
 
-/* 
----------------------------------------------
-responsive
---------------------------------------------- 
-*/
-
 
 @media (max-width: 992px) {
 
@@ -1190,7 +1154,7 @@ responsive
   #features .feature-item {
     margin-bottom: 30px;
   }
-  #our-classes .tabs-content {
+  #diet .tabs-content {
     margin-left: 0px;
     margin-top: 30px;
   }
